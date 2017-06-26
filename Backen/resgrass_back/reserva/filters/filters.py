@@ -1,0 +1,1 @@
+from django_filters import rest_framework as filtersfrom reserva.models.detalle_reserva import DetalleReservaclass ReservaDetalleFilter(filters.FilterSet):    class Meta:        print("==============filtroooooooooooooooooooooo")        model = DetalleReserva        fields = ('id','cancha')
