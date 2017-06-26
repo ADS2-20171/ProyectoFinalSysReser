@@ -14,7 +14,7 @@ var app = angular.module("gestion_acuerdo", [
     'ngMessages',
     'pascalprecht.translate',
     'tmh.dynamicLocale',
-    'tmh.dynamicLocale'
+    'daypilot'
 ]);
 
 //'ngDevhres',
